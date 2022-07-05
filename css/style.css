@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0 10em;
+  background: var(--Cream);
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Fraunces', serif;*/
+
+
+/* Colors */
+/* Primary */
+:root {
+  --Dark-cyan: hsl(158, 36%, 37%);
+  --Cream: hsl(30, 38%, 92%);
+  /* Neutral */
+  --Very-dark-blue: hsl(212, 21%, 14%);
+  --Dark-grayish-blue: hsl(228, 12%, 48%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/* card */
+.card {
+  width: 50%;
+  /* height: 60vh; */
+  display: flex;
+  margin: 3em auto;
+  border: 2px solid red;
+}
+
+/* img-section */
+.img-section {
+  width: 50%;
+}
+
+.img-section img {
+  width: 100%;
+}
+
+/* text-content */
+.text-content {
+  padding: 1em 2em;
+  width: 50%;
+  background: var(--White);
+}
+
+/* img {
+  max-width: 100%;
+} */
+
+/* mobile */
+
+/* Mobile: 375px */
