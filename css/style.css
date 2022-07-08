@@ -20,20 +20,27 @@
   --White: hsl(0, 0%, 100%);
 }
 
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
 /* card */
 .card {
   display: flex;
-}
-
-img {
-  width: 80%;
-
-  /* height: auto; */
+  width: 50%;
+  padding: 10px 20px;
 }
 
 /* img-section */
 
 /* text-content */
+
+.text-content {
+  padding: 14px 10px;
+}
 
 /* img {
   max-width: 100%;
@@ -47,18 +54,16 @@ img {
 
 @media (max-width: 500px) {
   body {
-    overflow-x: hidden;
+    display: block;
   }
 
   .card {
-    border: 1px solid red;
     flex-direction: column;
     padding: 18px 10px;
-    margin: 10px 10px;
+    margin: 10px auto;
   }
 
-  img {
+  .img-section img {
     width: 100%;
-    /* height: auto; */
   }
 }
